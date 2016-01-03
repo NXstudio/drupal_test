@@ -8931,18 +8931,16 @@ p{
   .foambluetext,.foampinktext{
     font-size: 16pt;
     text-align: center;
-    padding: 0 7%;
-  }
-  .foambluetext{
-    margin-bottom: 0;
+    padding: 0 5%;
   }
   .foamblacktext{
     font-size: 10pt;
-    padding: 0 7%;
+    padding: 0 5%;
   }
   .foampartytext1 img{
     margin: 0 auto;
     display: block;
+    margin-bottom: 10px;
   }
   .foampartytext1{
     text-align: center;
@@ -8952,6 +8950,12 @@ p{
   }
   .foampartytext3{
     text-align: center;
+  }
+  #vimeo_player{
+    height: auto;
+  }
+  .newsimg{
+    height: auto;
   }
   .isotope-container{
     margin-left: 0px;
