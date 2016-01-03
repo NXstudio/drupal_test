@@ -8961,8 +8961,8 @@ p{
     margin-left: 0px;
     margin-right: 0px;
   }
-  .isotope-element ul .img-list{
-    padding: 0px;
+  .isotope-element ul.img-list{
+    padding-left: 0px;
   }
 }
 
