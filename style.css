@@ -8933,9 +8933,6 @@ p{
     text-align: center;
     padding: 0 5%;
   }
-  .foambluetext{
-    margin-bottom: 0;
-  }
   .foamblacktext{
     font-size: 10pt;
     padding: 0 5%;
@@ -8943,6 +8940,7 @@ p{
   .foampartytext1 img{
     margin: 0 auto;
     display: block;
+    margin-bottom: 10px;
   }
   .foampartytext1{
     text-align: center;
