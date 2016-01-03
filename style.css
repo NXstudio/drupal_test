@@ -8911,6 +8911,15 @@ p{
   .foamFix{
     visibility: hidden;
   }
+  .balloon1{
+    visibility: hidden;
+  }
+  .balloon2{
+    visibility: hidden;
+  }
+  .balloon3{
+    visibility: hidden;
+  }
 
 
 }
