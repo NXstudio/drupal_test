@@ -8934,5 +8934,8 @@ p{
   .foamblacktext{
     font-size: 10pt;
   }
+  .foampartytext1 img{
+    margin: 0 auto;
+  }
 }
 
