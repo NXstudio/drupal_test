@@ -8893,7 +8893,9 @@ p{
   }
 
 
-
+  .contactInfo{
+    padding: 0 20px;
+  }
 
   /*---footer---*/
   footer .row div {
