@@ -8926,7 +8926,13 @@ p{
     visibility: hidden;
   }
   .copyright{
-    margin-top: 30px;
+    margin-top: 50px;
+  }
+  .foambluetext,.foampinktext{
+    font-size: 16pt;
+  }
+  .foamblacktext{
+    font-size: 10pt;
   }
 }
 
