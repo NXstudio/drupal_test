@@ -7908,16 +7908,6 @@ li .clientLogo img {
   color: #bf2d70;
 } 
 
-@media screen and (max-width: 550px)
-{
-  #block-views-crew-member-block .crewMemberList li {
-    width: 100%;
-  }
-
-  #block-views-client-block .clientList li {
-    width: 33.33%;
-  }
-}
 ul.img-list {
 
     margin: 0 0;
@@ -8894,6 +8884,15 @@ p{
   .personalProfile .jobTitle {
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+
+  #block-views-crew-member-block .crewMemberList li {
+    width: 100%;
+  }
+
+  #block-views-client-block .clientList li {
+    width: 50%;
+    padding: 2%;
   }
 }
 
