@@ -8910,6 +8910,8 @@ p{
   #foamParty .cnTitle h2{
     font-size: 21pt;
   }
-}
+  .foamFix{
+    visibility: hidden;
+  }
 
 
