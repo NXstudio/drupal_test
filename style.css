@@ -7765,13 +7765,12 @@ li .clientLogo img {
   padding: 0px;
 }
 
-@media screen and (max-width: 990px)
-{
+@media screen and (max-width: 990px){
   .serviceItem .photoPart {
     width: 100%;
   }
   .serviceItem .textPart{
-    wdith: 100%;
+    width: 100%;
   }
 }
 
@@ -8908,6 +8907,9 @@ p{
   footer{
     padding: 0 30px;
   }
+  #foamParty .cnTitle h2{
+    font-size: 21pt;
+  }
   .foamFix{
     visibility: hidden;
   }
@@ -8920,8 +8922,5 @@ p{
   .balloon3{
     visibility: hidden;
   }
-
-
-}
 
 
