@@ -8853,7 +8853,7 @@ p{
   margin-top: 80px;
 }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 .serviceItem .textPart{
   font-size: 10pt;
