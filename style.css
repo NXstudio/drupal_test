@@ -8939,5 +8939,14 @@ p{
     margin: 0 auto;
     display: block;
   }
+  .foampartytext1{
+    text-align: center;
+  }
+  .foampartybackground1{
+    text-align: center;
+  }
+  .foampartytext3{
+    text-align: center;
+  }
 }
 
