@@ -8908,6 +8908,10 @@ p{
   footer{
     padding: 0 30px;
   }
+  .foamFix{
+    visibility: hidden;
+  }
+
 
 }
 
