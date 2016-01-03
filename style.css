@@ -8851,10 +8851,6 @@ p{
   .downPart .btn {
     margin-top: 20px;
   }
-  
-  footer .row div {
-    margin: 15px 0;
-  }
   #block-locale-language {
     position: relative;
     margin-top: 25px;
@@ -8895,6 +8891,18 @@ p{
     width: 50%;
     padding: 2%;
   }
+
+
+
+
+  /*---footer---*/
+  footer .row div {
+    margin: 15px 0;
+  }
+  footer{
+    padding: 0 30px;
+  }
+
 }
 
 
