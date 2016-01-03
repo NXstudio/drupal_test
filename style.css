@@ -8976,5 +8976,8 @@ p{
     -webkit-transition: opacity 500ms;
     transition: opacity 500ms;
   }
+  span.text-content span a {
+    color: white;
+  }
 }
 
