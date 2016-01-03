@@ -8861,45 +8861,6 @@ p{
   .downPart .btn {
     margin-top: 20px;
   }
-
-<<<<<<< HEAD
-footer .row div{
-  margin: 15px 0;
-}
-#block-locale-language{
-  position: relative;
-  margin-top: 25px;
-}
-.nav{
-  margin-right: 0;
-  text-align: right;
-}
-.aboutUsPage .aboutUsContent{
-  margin: 0;
-}
-.aboutUsCompanyIntroduction .introduction p{
-  font-size: 10pt;
-}
-.aboutUsCompanyIntroduction .introduction{
-  margin-top: 0;
-}
-.aboutUsCompanyIntroduction .companyTitle h1{
-  text-align: center;
-}
-.personalProfile .profilePhoto img{
-  margin: 0 auto 20px auto;
-}
-body{
-  font-size: 10pt;
-}
-.jobTitle{
-
-}
-.circle{
-  
-}
-
-=======
   footer .row div {
     margin: 15px 0;
   }
@@ -8933,7 +8894,6 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
   }
->>>>>>> d51f8174c045531eafdb23538f5fdf1c363e74cb
 }
 
 
