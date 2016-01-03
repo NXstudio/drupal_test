@@ -8896,7 +8896,9 @@ p{
   .contactInfo{
     padding: 0 20px;
   }
-
+  .webform-client-form{
+    padding: 0 20px;
+  }
   /*---footer---*/
   footer .row div {
     margin: 15px 0;
