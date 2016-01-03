@@ -8961,7 +8961,7 @@ p{
     margin-left: 0px;
     margin-right: 0px;
   }
-  .img-list {
+  .isotope-element ul .img-list{
     padding: 0px;
   }
 }
