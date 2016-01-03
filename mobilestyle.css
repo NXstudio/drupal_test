@@ -1,0 +1,17 @@
+@media screen and (max-width: 990px){
+  .serviceItem .photoPart{
+    width: 100%;
+  }
+  .serviceItem .textPart{
+    width: 100%;
+  }
+  .serviceItem .textPart{
+  font-size: 10pt;
+  }
+  .serviceItem .downPart{
+  margin-top: 25px;
+  }
+  .downPart .btn{
+  margin-bottom: 10px;
+  }
+}

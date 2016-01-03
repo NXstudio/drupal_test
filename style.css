@@ -7769,13 +7769,12 @@ li .clientLogo img {
   padding: 0px;
 }
 
-@media screen and (max-width: 990px)
-{
-  .serviceItem .photoPart {
+@media screen and (max-width: 990px){
+  .serviceItem .photoPart{
     width: 100%;
   }
   .serviceItem .textPart{
-    wdith: 100%;
+    width: 100%;
   }
   .serviceItem .textPart{
   font-size: 10pt;
