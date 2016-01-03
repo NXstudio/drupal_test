@@ -8892,7 +8892,9 @@ p{
     padding: 2%;
   }
 
-
+  .contacttext1{
+    margin-top: 40px;
+  }
   .contactInfo{
     padding: 0 20px;
   }
