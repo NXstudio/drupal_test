@@ -8851,16 +8851,6 @@ p{
 
 @media (max-width: 768px) {
 
-.serviceItem .textPart{
-  font-size: 10pt;
-  padding: 6%;
-}
-.serviceItem .downPart{
-  margin-top: 25px;
-}
-.downPart .btn{
-  margin-top: 20px;
-}
   .serviceItem .textPart {
     font-size: 10pt;
     padding: 6%;
