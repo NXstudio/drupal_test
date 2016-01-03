@@ -8951,11 +8951,17 @@ p{
   .foampartytext3{
     text-align: center;
   }
+<<<<<<< HEAD
   #vimeo_player{
     height: auto;
   }
   .newsimg{
     height: auto;
+=======
+  .isotope-container{
+    margin-left: 0px;
+    margin-right: 0px;
+>>>>>>> e71b1d368e4d432b8ee1961423e0bba746341ac8
   }
 }
 
