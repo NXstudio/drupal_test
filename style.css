@@ -8951,5 +8951,11 @@ p{
   .foampartytext3{
     text-align: center;
   }
+  #vimeo_player{
+    height: auto;
+  }
+  .newsimg{
+    height: auto;
+  }
 }
 
