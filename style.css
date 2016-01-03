@@ -8932,6 +8932,9 @@ p{
     font-size: 16pt;
     text-align: center;
   }
+  .foambluetext{
+    margin-bottom: 0;
+  }
   .foamblacktext{
     font-size: 10pt;
   }
@@ -8941,6 +8944,7 @@ p{
   }
   .foampartytext1{
     text-align: center;
+    padding: 0 5%;
   }
   .foampartybackground1{
     text-align: center;
