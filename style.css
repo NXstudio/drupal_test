@@ -8855,7 +8855,15 @@ p{
 }
 @media (min-width: 768px) {
 
-
+.serviceItem .textPart{
+  font-size: 10pt;
+}
+.serviceItem .downPart{
+  margin-top: 25px;
+}
+.downPart .btn{
+  margin-bottom: 10px;
+}
 
 
 }
