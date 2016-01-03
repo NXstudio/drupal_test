@@ -8925,5 +8925,8 @@ p{
   .balloon3{
     visibility: hidden;
   }
-
+  .copyright{
+    margin-top: 30px;
+  }
+}
 
