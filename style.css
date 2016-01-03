@@ -8953,5 +8953,9 @@ p{
   .foampartytext3{
     text-align: center;
   }
+  .isotope-container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
