@@ -8979,5 +8979,9 @@ p{
   span.text-content span a {
     color: white;
   }
+  .mobileNone{
+    display: none;
+  }
 }
+
 
