@@ -8955,7 +8955,7 @@ p{
     height: auto;
   }
   .newsimg{
-    height: auto;
+    height: auto; !important
   }
   .isotope-container{
     margin-left: 0px;
