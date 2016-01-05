@@ -3984,7 +3984,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  margin-right: 80px;
+
 }
 .nav > li {
   position: relative;
@@ -4182,7 +4182,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 860px) {
   .navbar-header {
     float: left;
   }
@@ -4197,7 +4197,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 860px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4319,7 +4319,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 860px) {
   .navbar-toggle {
     display: none;
   }
@@ -4640,6 +4640,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   background: #222;
+  padding-right: 80px;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -8841,7 +8842,15 @@ p{
   margin-top: 30px;
 }
 
-@media (max-width: 800px) {
+.secondary .first{
+  display: none;
+}
+
+.navbar-collapse{
+  padding-left: 80px;
+}
+
+@media (max-width: 768px) {
 
   .serviceItem .textPart {
     font-size: 10pt;
@@ -8982,6 +8991,16 @@ p{
   .mobileNone{
     display: none;
   }
+  ul.secondary{
+    float: right;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    padding-right: 13px;
+  }
+  .navbar-collapse{
+  padding-left: 0;
+  }
 }
+
 
 
