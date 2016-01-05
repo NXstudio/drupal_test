@@ -8019,7 +8019,7 @@ display:table;
 width: auto;
 margin-left: auto;
 margin-right: auto;
-  font-size: 14pt;
+  font-size: 10pt;
 }
 ul.img-list img {
    position: relative;
@@ -8850,6 +8850,10 @@ p{
   padding-left: 80px;
 }
 
+.pcNone{
+  display:none;
+}
+
 @media (max-width: 768px) {
 
   .serviceItem .textPart {
@@ -9003,9 +9007,16 @@ p{
   .pcNone{
     display: block;
   }
+  .isotope-options{
+    margin-top: 30px;
+  }
+  .isotope-options a:hover{
+    text-decoration: none;
+  }
+  .filterbutton{
+    color: black;
+  }
 }
-.pcNone{
-  display:none;
-}
+
 
 
