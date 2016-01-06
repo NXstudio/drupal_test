@@ -7689,6 +7689,13 @@ li .clientLogo img {
   border-color: #CB005A;
 }
 
+.Tin .personNames {
+  background-color: #f3992b;
+}
+.Tin .jobTitle {
+  color: #CB005A;
+}
+
 /* about us content */
 
 .aboutUsPage .aboutUsContent {
