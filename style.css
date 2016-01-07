@@ -7693,7 +7693,10 @@ li .clientLogo img {
   background-color: #f3992b;
 }
 .Tin .jobTitle {
-  color: #CB005A;
+  color: #f3992b;
+}
+.Tin .profilePhoto img{
+  border-color: #f3992b;
 }
 
 /* about us content */
@@ -8679,7 +8682,7 @@ border:none;
 display:none;
 
 }
-#webform-client-form-44{
+#webform-client-form-44,.webform-client-form-74,.webform-client-form-97{
 padding-top:50px;
 
 }
@@ -8794,7 +8797,6 @@ p{
 }
 
 #block-views-indexserviceblock-block{
-  height: 600px;
 }
 
 .crewMember{
@@ -8859,6 +8861,12 @@ p{
 
 .pcNone{
   display:none;
+}
+.contact{
+  padding-top: 50px;
+}
+.contactIntro{
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -9022,6 +9030,9 @@ p{
   }
   .filterbutton{
     color: black;
+  }
+  .serviceimg{
+    margin-top: 30px;
   }
 }
 
