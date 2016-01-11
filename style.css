@@ -322,8 +322,11 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+ 
   height: auto;
+}
+.clientLogo img{
+  width: 100%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -3639,6 +3642,20 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
+@media (min-width: 860px) {
+  .navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+  .navbar-right .dropdown-menu-left {
+    left: 0;
+    right: auto;
+  }
+    .nav {
+    margin-right: 0;
+    text-align: right;
+  }
+}
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     left: auto;
@@ -4191,7 +4208,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: right;
   overflow-x: visible;
   padding-right: 15px;
-  padding-bottom: 5px;
   -webkit-overflow-scrolling: touch;
 }
 .navbar-collapse.in {
@@ -4641,6 +4657,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-form {
   background: #222;
   padding-right: 80px;
+  position: relative;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -7542,7 +7559,6 @@ li .clientLogo img {
 /* member block */
 
 #block-views-crew-member-block {
-  margin: 2%;
   background-color: white;
 }
 
@@ -7706,7 +7722,7 @@ li .clientLogo img {
   background-color: white;
 }
 .aboutUsCompanyIntroduction{
-  padding: 0 50px 50px 50px;
+  padding: 0 5% 5% 5%;
 }
 .aboutUsCompanyIntroduction .companyTitle {
 
@@ -7732,6 +7748,7 @@ li .clientLogo img {
 
 .aboutUsCompanyPhoto img {
   margin: 0px auto;
+  width: 100%;
 }
 
 /* service page */
@@ -7782,6 +7799,28 @@ li .clientLogo img {
   }
   .serviceItem .textPart{
     width: 100%;
+  }
+  .serviceimg{
+    margin-top: 30px;
+  }
+  .contacttext1{
+    margin-top: 40px;
+  }
+  .contactInfo{
+    padding: 0 20px;
+  }
+  .webform-client-form{
+    padding: 0 20px;
+  }
+   .personalProfile .jobTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+   .personalProfile .profilePhoto img {
+    margin: 0 auto 20px auto;
+  }
+  .col-sm-offset-1{
+    margin-left: 0;
   }
 }
 
@@ -7971,9 +8010,7 @@ span.text-content span a:hover {
     text-decoration: underline;
 }
 .isotope-element ul.img-list {
-	height:315px;
     margin: 0 0;
-	padding-left:15px;
     list-style-type: none;
 }
 
@@ -7982,7 +8019,7 @@ ul.img-list li {
     display: block;
     position: relative;
     float: left;
-    width: 400px;  
+    width: 320px;  
 	
     height: auto;
     margin: 0 5%;
@@ -8473,7 +8510,7 @@ font-weight:0;
 
 }
 .projectindex{
-min-height: 300px;
+min-height: 240px;
 
 }
 .serviceimg  img{
@@ -8540,7 +8577,7 @@ background-color:rgba(0, 0, 0, 0.4);
     z-index: 100;
     left: 50%;
 	 margin-top: -150px;
-    transform: translate(-50%,0);
+   margin-left: -125px;
 	  width: 250px;
   height: 250px;;
 
@@ -8554,12 +8591,11 @@ background-color:rgba(0, 0, 0, 0.4);
 font-weight:700;
 color:white;
 width: 250px;
+margin: -60px 0 0 -125px;
 	line-height:40px;
     position: absolute;
     top: 50%;
-    transform: translate(0,-50%);
     left: 50%;
-    transform: translate(-50%,-50%);
 	font-size:14pt;
   letter-spacing: 1px;
 }
@@ -8672,7 +8708,7 @@ margin-right: 8.5%;
 .form-actions button{
 width: 100px;
 height: 30px;
-padding: 5px 0;
+padding: 5px 0 30px 0;
 text-align: center;
 font-size: 20px;
 background-color: #fff;
@@ -8737,7 +8773,7 @@ a.menu-578,a.menu-589,a.menu-590,a.menu-591{
 
 #block-locale-language{
   position: absolute;
-  bottom: 13px;
+  bottom: 11px;
   right: 12px;
 }
 
@@ -8787,6 +8823,8 @@ p{
 #isotope-instance-0{
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 960px;
+  margin: 30px auto;
 }
 
 
@@ -8855,9 +8893,7 @@ p{
   display: none;
 }
 
-.navbar-collapse{
-  padding-left: 80px;
-}
+
 
 .pcNone{
   display:none;
@@ -8869,6 +8905,19 @@ p{
   margin-top: 50px;
 }
 
+@media (max-width: 960px) {
+  #isotope-instance-0{
+    width: 320px;
+  }
+}
+@media (max-width: 860px) {
+  #galleriffic #thumbs{
+    height: auto;
+  }
+  .prev,.next{
+    display: none;
+  }
+}
 @media (max-width: 768px) {
 
   .serviceItem .textPart {
@@ -8956,6 +9005,9 @@ p{
   .copyright{
     margin-top: 50px;
   }
+  .foampartytext1, .foampartytext2, .foampartytext3,.foambluetext,.foampinktext,.foamblacktext{
+    font-family: Microsoft JhengHei;
+  }
   .foambluetext,.foampinktext{
     font-size: 16pt;
     text-align: center;
@@ -9015,6 +9067,7 @@ p{
   }
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
     padding-right: 13px;
+    position: relative;
   }
   .navbar-collapse{
   padding-left: 0;
@@ -9034,6 +9087,22 @@ p{
   .serviceimg{
     margin-top: 30px;
   }
+  .form-actions{
+    margin-right: 0;
+  }
+  .advance-link img{
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    height: auto;
+  }
+  #slideshow{
+    height: auto;
+  }
+  #galleriffic{
+    height: auto;
+  }
+
 }
 
 

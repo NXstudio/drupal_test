@@ -59,6 +59,7 @@
   <link rel="profile" href="<?php print $grddl_profile; ?>" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="all and (max-device-width:768px)" href="small.css" />
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
@@ -128,24 +129,24 @@
 			
 		  
 					  if(location.hash=="#businesstag"){
-							$(document).ready(function(){
+							$(window).load(function() {
 							document.getElementById('businessclick').click();
 					
 							})
 						} else if (location.hash=="#governmenttag") {
-							$(document).ready(function(){
+							$(window).load(function() {
 							document.getElementById('governmentclick').click();
 					
 							})
 						}else if (location.hash=="#schooltag") {					
-							$(document).ready(function(){
+								$(window).load(function() {
 							document.getElementById('schoolclick').click();
 						
 							})
 						}
 						else if (location.hash=="#foampartytag") {
-							$(document).ready(function(){
-							document.getElementById('foampartyclick').click();
+								$(window).load(function() {
+							document.getElementById('brandclick').click();
 					
 							})
 								
@@ -203,16 +204,7 @@
 	})
 	
 	</script>
-	<script >
-     var windowidth =jQuery(window).width();
-	var ulwidth =Math.floor(windowidth/415)*415;
-	  jQuery(function ($) {
-		$('#isotope-instance-0').css('width',ulwidth+'px');
-		$('#isotope-instance-0').css('margin-left','auto');
-		$('#isotope-instance-0').css('margin-right','auto');
-				$('#isotope-instance-0').css('padding-buttom','30px');
-		})
-		</script>
+	
 
 </head>
 <body<?php print $body_attributes; ?>>
