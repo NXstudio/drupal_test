@@ -8248,8 +8248,6 @@ font-weight:900;
 line-height: 1.2em;
 margin-top: 40px;
 margin-bottom: 40px;
-text-align: center;
-
 }
 .foampinktext{
 color:#e1007d;
@@ -8909,9 +8907,6 @@ p{
   font-family: Microsoft JhengHei;
 }
 
-.foampartytext2, .foampartytext3{
-	text-align: center;
-}
 @media (max-width: 960px) {
   #isotope-instance-0{
     width: 320px;
@@ -9108,6 +9103,12 @@ p{
     height: auto;
   }
 
+  .html5-video-container video{
+    width: 100% !important; 
+    height: auto!important;
+    left: non!important;
+    overflow: hidden;
+  }
 }
 
 
