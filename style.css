@@ -7,7 +7,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @font-face {
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   font-style: normal;
   font-weight: 500;
   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
@@ -17,7 +17,7 @@
        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
 }
 html {
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   position: relative;
@@ -286,13 +286,13 @@ body {
   line-height: 1.2;
   color: #333333;
   background-color: #fff;
-      font-family: Arial, 'cwTeXHei', sans-serif;
+      font-family: Arial, 'cwTeXHei';
 }
 input,
 button,
 select,
 textarea {
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   font-size: inherit;
   line-height: inherit;
 }
@@ -387,7 +387,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -734,7 +734,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
 }
 code {
   padding: 2px 4px;
@@ -2707,7 +2707,7 @@ tbody.collapse.in {
   transition-timing-function: ease;
 }
 @font-face {
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
   src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
@@ -2715,7 +2715,7 @@ tbody.collapse.in {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -5983,7 +5983,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6101,7 +6101,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6370,7 +6370,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: Arial, 'cwTeXHei', sans-serif;
+  font-family: Arial, 'cwTeXHei';
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -8470,7 +8470,7 @@ height:800px !important;
 .newsh1{
 color:white;
 font-size: 80px;
-font-family: Arial, 'cwTeXHei', sans-serif;
+font-family: Arial, 'cwTeXHei';
 font-weight:0;
 margin-top: 20px;
 
