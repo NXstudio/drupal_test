@@ -8019,7 +8019,7 @@ ul.img-list li {
     display: block;
     position: relative;
     float: left;
-    width: 320px;  
+    width: 310px;  
 	
     height: auto;
     margin: 0 5%;
@@ -8091,7 +8091,7 @@ list-style:none;
 
 list-style:none;
  -webkit-padding-start: 0; 
-
+margin: 5px;
 }
 .img-list  {
 padding-left:15px;
@@ -8248,7 +8248,6 @@ font-weight:900;
 line-height: 1.2em;
 margin-top: 40px;
 margin-bottom: 40px;
-
 }
 .foampinktext{
 color:#e1007d;
@@ -8314,7 +8313,7 @@ text-decoration:none;.
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     text-align: center;
-    font-size: 16pt;
+    font-size: 12pt;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 auto 40px;
@@ -8333,7 +8332,7 @@ text-decoration:none;.
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     text-align: center;
-    font-size: 16pt;
+    font-size: 12pt;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 auto 40px;
@@ -8353,7 +8352,7 @@ text-decoration:none;.
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     text-align: center;
-    font-size: 16pt;
+    font-size: 12pt;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 auto 40px;
@@ -8904,6 +8903,9 @@ p{
 .contactIntro{
   margin-top: 50px;
 }
+.foampartytext1, .foampartytext2, .foampartytext3,.foambluetext,.foampinktext,.foamblacktext,.balloon1,.balloon2,.balloon3{
+  font-family: Microsoft JhengHei;
+}
 
 @media (max-width: 960px) {
   #isotope-instance-0{
@@ -9005,9 +9007,7 @@ p{
   .copyright{
     margin-top: 50px;
   }
-  .foampartytext1, .foampartytext2, .foampartytext3,.foambluetext,.foampinktext,.foamblacktext{
-    font-family: Microsoft JhengHei;
-  }
+
   .foambluetext,.foampinktext{
     font-size: 16pt;
     text-align: center;
@@ -9103,6 +9103,12 @@ p{
     height: auto;
   }
 
+  .html5-video-container video{
+    width: 100% !important; 
+    height: auto!important;
+    left: non!important;
+    overflow: hidden;
+  }
 }
 
 
