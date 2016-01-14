@@ -9103,11 +9103,8 @@ p{
     height: auto;
   }
 
-  .html5-video-container video{
-    width: 100% !important; 
-    height: auto!important;
-    left: non!important;
-    overflow: hidden;
+  #vimeo_player{
+    height: 400px;
   }
 }
 
