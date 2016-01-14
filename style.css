@@ -8951,6 +8951,8 @@ p{
   #block-locale-language {
     position: relative;
     margin-top: 25px;
+    width: 120px;
+    right: 0;
   }
   .nav {
     margin-right: 0;
@@ -9085,7 +9087,7 @@ p{
     float: right;
   }
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-    padding-right: 13px;
+    padding-right: 0;
     position: relative;
   }
   .navbar-collapse{
@@ -9137,4 +9139,9 @@ p{
   #vimeo_player{
     height: 300px;
   }
+  .isotope-options li{
+    margin: 0;
+    padding-left: 0;
+  }
+
 }
