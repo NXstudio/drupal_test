@@ -9089,6 +9089,7 @@ p{
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
     padding-right: 10px;
     position: relative;
+    overflow: hidden;
   }
   .navbar-collapse{
   padding-left: 0;
