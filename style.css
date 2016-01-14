@@ -9024,7 +9024,9 @@ p{
   .copyright{
     margin-top: 50px;
   }
-
+   #vimeo_player{
+    height: auto;
+  }
   .foambluetext,.foampinktext{
     font-size: 16pt;
     text-align: center;
@@ -9034,6 +9036,7 @@ p{
     font-size: 10pt;
     padding: 0 5%;
   }
+  
   .foampartytext1 img{
     margin: 0 auto;
     display: block;
@@ -9131,6 +9134,9 @@ p{
   }
   .foampartybackground1,.foampartybackground2{
     display: none;
+  }
+  #vimeo_player{
+    height: 300px;
   }
 }
 
