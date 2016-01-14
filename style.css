@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
 /**
  * Variable Overrides.
  *
@@ -7,7 +8,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @font-face {
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   font-style: normal;
   font-weight: 500;
   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
@@ -17,7 +18,7 @@
        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
 }
 html {
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   position: relative;
@@ -286,13 +287,13 @@ body {
   line-height: 1.2;
   color: #333333;
   background-color: #fff;
-      font-family: Arial, 'cwTeXHei';
+      font-family: Arial, Microsoft JhengHei;
 }
 input,
 button,
 select,
 textarea {
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   font-size: inherit;
   line-height: inherit;
 }
@@ -387,7 +388,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -734,7 +735,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
 }
 code {
   padding: 2px 4px;
@@ -812,7 +813,6 @@ pre code {
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
-  min-height: 1px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -2707,7 +2707,7 @@ tbody.collapse.in {
   transition-timing-function: ease;
 }
 @font-face {
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
   src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
@@ -2715,7 +2715,7 @@ tbody.collapse.in {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -5983,7 +5983,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6101,7 +6101,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6370,7 +6370,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: Arial, 'cwTeXHei';
+  font-family: Arial, Microsoft JhengHei;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -7788,7 +7788,13 @@ li .clientLogo img {
   float: right;
 
 }
-
+.newsItem{
+  z-index: 100;
+  background: #333;
+  height: 600px;
+  width: 480px;
+  float: right;
+}
 .serviceItem .photoPart {
   padding: 0px;
 }
@@ -7821,6 +7827,15 @@ li .clientLogo img {
   }
   .col-sm-offset-1{
     margin-left: 0;
+  }
+  .newsimg{
+    display: none;
+  }
+  #widget_pager_top_indexnews-block{
+    text-align: center;
+  }
+  .newsItem{
+    width: 100%;
   }
 }
 
@@ -8225,10 +8240,11 @@ background-image:url('http://www.odinimc.com.tw/sites/default/files/foamParty_5.
 }
 .foampartybackground1{
 height:800px;
-
+background-size: cover;
 }
 .foampartybackground2{
 height:800px;
+background-size: cover;
 }
 .foamFix{
 position:fixed;
@@ -8375,8 +8391,8 @@ padding:0 0 0 0;
 padding:0 0 0 0;
 }
 .newsimg{
-width:100%;
-
+width:1024px;
+z-index: -10;
 }
 
 #block-locale-language {
@@ -8470,7 +8486,7 @@ height:800px !important;
 .newsh1{
 color:white;
 font-size: 80px;
-font-family: Arial, 'cwTeXHei';
+font-family: Arial, Microsoft JhengHei;
 font-weight:0;
 margin-top: 20px;
 
@@ -8503,7 +8519,6 @@ padding:0;
 text-decoration:none;
 margin-top:0px !important;
 color:white;
-font-size: 18px;
 
 font-weight:0;
 
@@ -8843,6 +8858,7 @@ p{
 
 .filterbutton{
   color: white;
+  cursor: pointer;
 }
 
 .advance-link img{
@@ -8904,7 +8920,7 @@ p{
   margin-top: 50px;
 }
 .foampartytext1, .foampartytext2, .foampartytext3,.foambluetext,.foampinktext,.foamblacktext,.balloon1,.balloon2,.balloon3{
-  font-family: Microsoft JhengHei;
+  font-family: "Helvetica Neue", Microsoft JhengHei;
 }
 
 @media (max-width: 960px) {
@@ -9108,6 +9124,12 @@ p{
     height: auto!important;
     left: non!important;
     overflow: hidden;
+  }
+  .newstext a{
+    font-size: 10pt;
+  }
+  .foampartybackground1,.foampartybackground2{
+    display: none;
   }
 }
 

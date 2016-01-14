@@ -1,7 +1,7 @@
   
 <div class="row contactForm">
 <div class="col-md-offset-1 col-md-4">
-<h1>Corporate with us</h1>
+<h1>Your Opinion or Inquirement</h1>
 </div>
 </div>
 <div class="row">
